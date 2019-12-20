@@ -1,15 +1,19 @@
 import React from 'react';
 
-import Header from './Header';
-import MainContent from './MainContent';
-import Footer from './Footer';
-
 const App = function() {
     return (
         <div>
-            <Header />
-            <MainContent />
-            <Footer />
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
+
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
+
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
+
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
         </div>
     );
 }
