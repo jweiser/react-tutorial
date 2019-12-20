@@ -1,21 +1,16 @@
 import React from 'react';
 
+import ToDo from './ToDo';
+
 const App = function() {
     return (
         <div>
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
-
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
-
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
-
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
+            <ToDo />
+            <ToDo />
+            <ToDo />
+            <ToDo />
         </div>
     );
-}
+};
 
 export default App;
