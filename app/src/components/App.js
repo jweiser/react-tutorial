@@ -1,14 +1,15 @@
 import React from 'react';
+import './App.css';
 
-import ToDo from './ToDo';
+import ToDoItem from './ToDoItem';
 
 const App = function() {
     return (
-        <div>
-            <ToDo />
-            <ToDo />
-            <ToDo />
-            <ToDo />
+        <div className="todo-list">
+            <ToDoItem />
+            <ToDoItem />
+            <ToDoItem />
+            <ToDoItem />
         </div>
     );
 };

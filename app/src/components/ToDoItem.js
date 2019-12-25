@@ -1,12 +1,14 @@
 import React from 'react';
 
-const ToDo = function() {
+import './ToDoItem.css';
+
+const ToDoItem = function() {
     return (
-        <div>
+        <div className="todo-item">
             <input type="checkbox" />
             <p>Placeholder text here</p>
         </div>
     );
 };
 
-export default ToDo;
+export default ToDoItem;
