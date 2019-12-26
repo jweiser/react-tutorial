@@ -2,11 +2,11 @@ import React from 'react';
 
 import './ToDoItem.css';
 
-const ToDoItem = function() {
+const ToDoItem = function(props) {
     return (
         <div className="todo-item">
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
+            <input type="checkbox" checked={props.data.completed}/>
+            <p>{props.data.text}</p>
         </div>
     );
 };
