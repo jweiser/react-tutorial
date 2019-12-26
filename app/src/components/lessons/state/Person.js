@@ -1,6 +1,6 @@
 import React from 'react';
 
-class App extends React.Component {
+class Person extends React.Component {
     constructor() {
         super();
 
@@ -20,4 +20,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default Person;
